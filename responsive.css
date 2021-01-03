@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) {
+
+.container{
+  width: 700px;
+
+}
+.logo{
+width:100%;
+margin-bottom: 20px;
+margin-left: 298px;
+}
+.navigation{
+  width: 100%;
+  float: none;
+}
+.content-left{
+  height: 380px;
+  width: 320px;
+}
+.content-left h1{
+font: bold 45px/86px "Arial";
+}
+.link a{
+margin-right:10px;
+}
+.text-part{
+width: 700px;
+}
+.text-left{
+  width: 200px;
+}
+.text-mid{
+  width: 200px;
+  padding-left: 45px;
+}
+.text-right{
+  width: 200px;
+}
+
+}

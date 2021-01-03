@@ -1,0 +1,267 @@
+body{
+  background: #f4f4f4;
+  margin: 0;
+  border-top: 15px solid black;
+}
+.container{
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.header{
+  margin-top: 21px;
+  padding-bottom: 17px;
+  overflow: hidden;
+  border-bottom: 2px solid #e0e0e0;
+}
+.logo{
+  width:10%;
+  float: left;
+}
+.navigation{
+  float: right;
+  width:80%;
+  margin-top: 42px;
+}
+.navigation ul{
+  padding: 0;
+  margin: 0;
+}
+.navigation ul li{
+
+  text-transform: uppercase;
+  font: bold 16px "Arial";
+  padding-left: 30px;
+ display: inline-block;
+
+}
+.navigation ul li a{
+  text-decoration: none;
+  color:#0082C7;
+  border-radius: 3px;
+  padding: 7px;
+
+}
+.dropdown:hover .sub{
+  display: block;
+}
+.navigation ul li a:hover{
+  color:white;
+  background: #79CFAD;
+}
+.sub a:nth-child(1){
+  margin-top: 10px;
+}
+.sub a{
+  font-size: 15px;
+ padding-left: 15px;
+}
+.content{
+  margin-top: 10px;
+  height:390px;
+  width: 960px;
+  overflow: hidden;
+  background-color: #375E97;
+
+}
+.content-left{
+  float: left;
+  height: 380px;
+  width: 450px;
+  margin-left: 35px;
+  margin-top: 35px;
+}
+.content-right{
+  float: right;
+  width: 460px;
+}
+
+.content-left h1{
+  font: bold 85px/86px "Arial";
+  margin: 0;
+  color: #f4f4f4;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 2px #df6c15;
+}
+.bar{
+  background: #86AC41;
+  height: 44px;
+  margin-top: 12px;
+}
+.text{
+  float: left;
+}
+.text p{
+  font: bold 15px "Arial";
+  margin-left: 10px;
+  color: #063852;
+  text-transform: uppercase;
+}
+.link{
+  float: right;
+}
+.link a{
+  color: #063852;
+  font: bold 15px/44px "Arial";
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right:15px;
+  padding: 10px;
+
+}
+
+.link a:hover{
+  color: white;
+  background: #6E2E2E;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.text-part{
+  border-top: 2px solid #e0e0e0;
+  width: 960px;
+  overflow: hidden;
+}
+.text-left{
+  width: 283px;
+  float: left;
+}
+.text-mid{
+  width: 283px;
+  float: left;
+  padding-left: 56px;
+}
+.text-right{
+  width: 283px;
+  float: right;
+}
+.common h2{
+  position: relative;
+  border-bottom: 15px  #375E97 solid;
+  padding-bottom:12px;
+  color:  #375E97;
+  text-transform: uppercase;
+  font: bold 20px "Arial";
+  padding-left: 20px;
+}
+.common p{
+  color: #9d9d9d;
+  font: normal 12px/22px "Arial";
+  text-align: justify;
+}
+.common h2:before{
+  content: "";
+  background:url(image/Screenshot_76.png) no-repeat;
+  position: absolute;
+  width: 18px;
+  height: 15px;
+  margin-top: 4px;
+  left: 0;
+}
+.common a{
+  text-decoration: none;
+  color:#375E97;
+  font: bold 18px "Arial";
+  text-transform: uppercase;
+  position: relative;
+  padding: 22px;
+}
+.common a:before{
+  content: "";
+  background:url(image/Screenshot_76.png) no-repeat;
+  position: absolute;
+  width: 18px;
+  height: 15px;
+  margin-top: 23px;
+  left: 0;
+}
+
+.common ul{
+  padding: 0;
+  margin: 0;
+}
+.common ul li{
+  color: #9d9d9d;
+  font: normal 12px/22px "Arial";
+  text-align: justify;
+  position: relative;
+  padding-left: 22px;
+  list-style: none;;
+}
+.common ul li:before{
+  content: "";
+  background:url(image/Screenshot_76.png) no-repeat;
+  position: absolute;
+  width: 18px;
+  height: 15px;
+  margin-top: 4px;
+  left: 0;
+
+}
+
+.Services{
+border-top: 2px solid #E0E0E0;
+text-align: center;
+color: #375E97;
+font-size: 25px;
+margin-top: 20px;
+
+}
+.sub{
+  display: none;
+  position: absolute;
+}
+.sub a{
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background: #F4F4F4;
+  min-width: 100px;
+}
+.footer{
+
+  margin-top: 10px;
+  background-color:#063852;
+  height: 35px;
+}
+.copy{
+  color: white;
+  font-size: 12px;
+  line-height: 12px;
+  margin-right: 10px;
+  float: right;
+}
+.member{
+  margin-top: 10px;
+  border-top: 2px solid #e0e0e0;
+  width: 960px;
+  text-align: center;
+  overflow: hidden;
+  border-bottom: 2px solid #e0e0e0;
+}
+.member img{
+  border-radius: 50px;
+}
+.member p{
+  font-family: "Arial";
+  font-size: 16px;
+  text-align: left;
+  line-height: 18px;
+}
+.member h1{
+    text-align: center;
+    color: #375E97;
+}
+.ridoy{
+  width: 283px;
+  float: left;
+}
+.habib{
+  width: 283px;
+  float: left;
+  padding-left: 56px;
+}
+.teddy{
+  width: 283px;
+  float: right;
+}
